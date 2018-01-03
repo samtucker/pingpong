@@ -1,0 +1,33 @@
+/*Ping Pong Game by Sam Tucker*/
+
+body {
+	background-color:rgb(222,222,222);
+}
+
+#game {
+	padding-top:15px;
+	position:relative;
+	margin:auto;
+	height:600px;
+	width:800px;
+}
+
+#title {
+	text-align: center;
+	font-family: Trebuchet, Futura, Sans-Serif;
+	font-size: 30px;
+}
+
+#myProgress {
+	margin: auto;
+    position: relative;
+    width: 60%;
+    height: 30px;
+    background-color: grey;
+}
+#myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: white;
+}
